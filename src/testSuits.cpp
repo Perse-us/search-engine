@@ -1,11 +1,5 @@
 
-#pragma once
-
-#include <gtest/gtest.h>
-
-// Checked module
-#include "invertedIndex.h"
-#include "searchServer.h"
+#include "testSuits.h"
 
 ////////////////////////////////////////
 /// InvertedIndexSuit

@@ -10,19 +10,11 @@
 
 // Service library
 #include "testSuits.h"
-#include "fileConvertor.h"
 
 int main(int argc, char** argv) {
 
     // Initialization
     const char* engineVersion = "1.0";
-
-    // Switch mode
-    // Convert files for testing
-    if (false) {
-        ConverterJSON jsonConverter(engineVersion);
-        FileConvertor::convertFileList(jsonConverter.getFileList());
-    }
 
     try {
         ConverterJSON jsonConverter(engineVersion);
@@ -48,4 +40,5 @@ int main(int argc, char** argv) {
     // Init and run Google tests
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
+    //return 0;
 }
