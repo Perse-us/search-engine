@@ -8,9 +8,6 @@
 #include "invertedIndex.h"
 #include "searchServer.h"
 
-// Service library
-#include "testSuits.h"
-
 int main(int argc, char** argv) {
 
     // Initialization
@@ -37,8 +34,8 @@ int main(int argc, char** argv) {
         std::cerr << err.what() << std::endl;
     }
 
-    // Init and run Google tests
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-    //return 0;
+    // Init and run included Google tests
+    //::testing::InitGoogleTest(&argc, argv);
+    //return RUN_ALL_TESTS();
+    return 0;
 }

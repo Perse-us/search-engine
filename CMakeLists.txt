@@ -10,6 +10,8 @@ set(JSON_BuildTests OFF CACHE INTERNAL "")
 add_subdirectory(nlohmann_json)
 
 add_subdirectory(src)
+add_subdirectory(test_suits)
 
 #JSON library
 target_link_libraries(search_engine PRIVATE nlohmann_json::nlohmann_json)
+target_link_libraries(test_suits PRIVATE nlohmann_json::nlohmann_json)

@@ -1,5 +1,9 @@
 
-#include "testSuits.h"
+#include <gtest/gtest.h>
+
+// Checked module
+#include "invertedIndex.h"
+#include "searchServer.h"
 
 ////////////////////////////////////////
 /// InvertedIndexSuit
