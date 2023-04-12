@@ -1,8 +1,4 @@
 
-// In project used some texts from book of
-// J.K. Rowling : "Harry Potter and the Sorcerer's Stone"
-// Without any commercial purposes
-
 // Work library
 #include "converterJson.h"
 #include "invertedIndex.h"
@@ -34,8 +30,5 @@ int main(int argc, char** argv) {
         std::cerr << err.what() << std::endl;
     }
 
-    // Init and run included Google tests
-    //::testing::InitGoogleTest(&argc, argv);
-    //return RUN_ALL_TESTS();
     return 0;
 }

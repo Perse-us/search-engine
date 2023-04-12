@@ -24,8 +24,8 @@ ConverterJSON::ConverterJSON(const std::string& engineVersion) {
 
     // Added files & confirm
     fillFilesList(jsonData);
-    if (files.empty()) std::cerr << "there are not files for search" << std::endl;
-    else std::cout << "Added files for search: " << files.size() << std::endl;
+    if (files.empty()) std::cerr << "empty file list for searching" << std::endl;
+    else std::cout << "Total files: " << files.size() << std::endl;
 
 }
 
